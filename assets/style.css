@@ -1,5 +1,5 @@
 body{
-font-family: Arial, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 background:#feebe2;
 margin:0;
 }
@@ -12,13 +12,21 @@ height:100%;
 padding:25px;
 }
 
-.sidebar img{
+.sidebar img.profile{
 width:180px;
-border-radius:10px;
+border-radius:12px;
+margin-bottom:15px;
 }
 
 .sidebar h1{
 color:#7a0177;
+font-size:24px;
+margin-bottom:5px;
+}
+
+.sidebar p{
+color:#7a0177;
+font-size:14px;
 }
 
 .sidebar a{
@@ -32,11 +40,31 @@ text-decoration:none;
 color:#7a0177;
 }
 
+.icons{
+margin-top:10px;
+margin-bottom:15px;
+}
+
+.icons img{
+width:24px;
+margin-right:8px;
+}
+
 .content{
 margin-left:300px;
 padding:40px;
+max-width:800px;
 }
 
 h2{
 color:#ae017e;
+}
+
+a{
+color:#dd3497;
+text-decoration:none;
+}
+
+a:hover{
+color:#7a0177;
 }
