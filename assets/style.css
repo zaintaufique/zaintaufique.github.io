@@ -1,1 +1,43 @@
+body{
+font-family: Arial, sans-serif;
+background:#feebe2;
+margin:0;
+}
 
+.sidebar{
+width:260px;
+background:#fcc5c0;
+position:fixed;
+height:100%;
+padding:25px;
+}
+
+.sidebar img{
+width:180px;
+border-radius:10px;
+}
+
+.sidebar h1{
+color:#7a0177;
+font-size:24px;
+}
+
+.sidebar a{
+display:block;
+margin:8px 0;
+color:#ae017e;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+color:#7a0177;
+}
+
+.content{
+margin-left:300px;
+padding:40px;
+}
+
+h2{
+color:#ae017e;
+}
